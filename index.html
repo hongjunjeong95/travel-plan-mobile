@@ -133,11 +133,7 @@
 .place-kind-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .amap-time{display:inline-block;margin:.2em 0}
 
-#owner-pin-setup button,#owner-switch-code{min-height:44px}
-#owner-device{margin:14px 0;padding:13px;border:1px solid var(--line);border-radius:8px;background:var(--paper)}
-#owner-device h3{margin:0;font-size:15px}
-#owner-device .help{margin:6px 0}
-#owner-device .help:empty{display:none}
+#owner-switch-code{min-height:44px}
 .booking-shortcut{font-weight:700}
 .booking-shortcut[hidden],#booking-dialog [hidden]{display:none!important}
 #booking-dialog{box-sizing:border-box;background:var(--sheet);color:var(--ink);border:1px solid var(--line);border-radius:8px;width:min(420px,94vw);max-height:90dvh;padding:20px;overflow:auto}
@@ -218,19 +214,7 @@
 </ul>
 <p class="help"><a href="https://m.airchina.com.cn/assets/html/transferGuide/transferGuide.html" target="_blank" rel="noopener noreferrer">중국국제항공 공식 환승 안내 ↗</a> · <a href="https://www.bcia.com.cn/lkznzj.html" target="_blank" rel="noopener noreferrer">베이징 수도공항 T3 공식 환승 안내 ↗</a></p>
 </aside></section>
-<section class="extras" id="reservations" aria-labelledby="reservation-title"><p class="eyebrow">BOOK THESE FIRST</p><h2 class="section-title" id="reservation-title">이번 일정에서 해야 할 예약·확인</h2><p class="help">아직 예약 완료를 뜻하지 않습니다. 확인한 항목을 직접 체크하세요. 새 일정용 체크 상태로 구분해 저장합니다.</p><label class="check-row"><input type="checkbox" id="new-flight-hotel"><span><strong>발권 완료 · 항공권과 이베이 호텔 확인서 저장</strong><small>11/29 CA440 · 12/4 CA4137 → 베이징 → CA125 / 11/29~12/4 호텔 5박 / 각자 항공권·객실 확인</small></span></label><label class="check-row"><input type="checkbox" id="new-hongya"><span><strong>11/30 홍야동 왕홍 16:30 시작 확인</strong><small>퍼프·브러시 준비. 16:30 시작과 18:30 촬영 시간을 숍에 확인하세요.</small></span></label><label class="check-row"><input type="checkbox" id="new-qipao"><span><strong>12/1 십팔제 11:30 치파오 예약</strong><small>11:30 의상·헤어·메이크업 → 12:30~13:30 촬영, 반납·추가금·원본/보정본 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-wulong-pickup"><span><strong>12/2 우룽 예약 확정 · 기사 연락 확인</strong><small>성인 2명 결제 완료. 12/1 위챗으로 승차 시각·지도 핀·차량 번호를 확인하고 바우처 저장. <a href="#wulong-confirmed">픽업 안내</a></small></span></label><label class="check-row"><input type="checkbox" id="new-banquet-lunch-voucher"><span><strong>예약 완료 · 12/3 경유연 오찬 바우처 저장</strong><small>영락시장 포함. 11:40~12:10 시장 체험, 12:30~14:00 식사·공연 일정. 트립닷컴 내 예약에서 바우처를 열고 지참할 신분증을 확인하세요. <a class="map-link" href="https://kr.trip.com/travel-guide/attraction/chongqing/chongqing-qingyu-banquet-palace-cuisine-show-153456738?poiType=66&amp;curr=KRW&amp;locale=ko-KR&amp;scene=grouptours" target="_blank" rel="noopener noreferrer">트립닷컴 상품 ↗</a></small></span></label><label class="check-row"><input type="checkbox" id="new-nanfeng"><span><strong>11/29 남풍 늦은 입장·지점 확인</strong><small>20:30~21:00경 입장 목표. 라스트오더·바 운영·야경 좌석·마지막 도보 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-breakfast"><span><strong>2·3일차 아침 식당과 운영시간 확인</strong><small>등걸면(십팔제) 실제 중국어명·지점, 짜이산청 바비큐(在山城烧烤) 또는 주춘 카오나오화(九村烤脑花)의 10시 영업 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-meals"><span><strong>11/30 저녁·12/2 투어 후 저녁 결정</strong><small>홍야동/숙소 주변 저녁, 우롱 복귀 시각에 맞는 해방비·바이루 먹거리 거리(八一路好吃街) 식사 후보 저장.</small></span></label><label class="check-row"><input type="checkbox" id="new-cafe"><span><strong>나한사·와딩딩 동선과 카페 운영 확인</strong><small>11/30 10:45~12:00 사찰+카페 블록. 카페 대기 시 체류를 줄이기.</small></span></label><label class="check-row"><input type="checkbox" id="new-return"><span><strong>픽업·샌딩 예약 완료 · 미팅 장소 저장</strong><small>11/29 17:50 픽업 · 12/4 05:15 샌딩. 앱에서 기사 연락과 각 승차 위치 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-prep"><span><strong>출국 준비</strong><small>여권·입국카드·로밍도깨비 eSIM·Alipay·WeChat·보험·예약 바우처 저장.</small></span></label><p class="help"><a href="#preparation">한국 준비물 전체 ↓</a> · <a href="#meals">식사 후보 ↓</a> · <a href="#entry">입국·검역·세관 ↓</a></p></section><section class="extras guide-section" id="joint-settlement" aria-labelledby="joint-settlement-title"><h2 class="section-title" id="joint-settlement-title">공동정산 장부</h2><p class="guide-lead">2026년 11월 23일 기준 · 2인 균등 부담 · 원화 실결제 기준</p><p class="guide-total settlement-result"><strong>박지우 → 정홍준 16,994원</strong><span class="status-chip">미정산</span></p><dl class="settlement-totals"><div><dt>정홍준 선결제</dt><dd>182,077원</dd></div><div><dt>박지우 선결제</dt><dd>148,090원</dd></div><div><dt>공동 결제 합계</dt><dd>330,167원</dd></div></dl><h3>공동 지출 원장</h3><p class="help">이용일은 서비스 예정일이에요. 결제 상태는 판매처에 지불한 상태를 뜻해요. 모바일에서는 표를 좌우로 밀어 볼 수 있어요.</p><div class="guide-scroll ledger-scroll" role="region" tabindex="0" aria-label="공동 지출 원장"><table class="guide-table ledger-table"><caption>공동 지출 4건</caption><thead><tr><th scope="col">항목·내역</th><th scope="col">이용일</th><th scope="col">분류</th><th scope="col">결제자</th><th scope="col">실결제액</th><th scope="col">정홍준 부담</th><th scope="col">박지우 부담</th><th scope="col">결제 상태</th></tr></thead><tbody><tr><th scope="row">공항 픽업<small>충칭 장베이공항 → 이베이 호텔 · 차량 1대, 2인 공용</small></th><td>11/29</td><td>교통</td><td>정홍준</td><td class="ledger-num">16,482원</td><td class="ledger-num">8,241원</td><td class="ledger-num">8,241원</td><td>결제완료</td></tr><tr><th scope="row">우룽 소규모 투어<small>선녀산·천생삼교·용수협 · 성인 2명</small></th><td>12/2</td><td>투어</td><td>정홍준</td><td class="ledger-num">153,340원</td><td class="ledger-num">76,670원</td><td class="ledger-num">76,670원</td><td>결제완료</td></tr><tr><th scope="row">경유연 오찬<small>성인 2명 · 오찬, 공연, 영락시장 체험</small></th><td>12/3</td><td>식사·공연</td><td>박지우</td><td class="ledger-num">148,090원</td><td class="ledger-num">74,045원</td><td class="ledger-num">74,045원</td><td>결제완료</td></tr><tr><th scope="row">공항 샌딩<small>이베이 호텔 → 충칭 장베이공항 · 차량 1대, 2인 공용</small></th><td>12/4</td><td>교통</td><td>정홍준</td><td class="ledger-num">12,255원</td><td class="ledger-num">6,127.50원</td><td class="ledger-num">6,127.50원</td><td>결제완료</td></tr></tbody><tfoot><tr><th scope="row" colspan="4">합계</th><td>330,167원</td><td>165,083.50원</td><td>165,083.50원</td><td>4건</td></tr></tfoot></table></div><h3>결제자별 부담과 정산</h3><div class="guide-scroll ledger-scroll" role="region" tabindex="0" aria-label="결제자별 부담과 정산"><table class="guide-table ledger-table ledger-totals"><caption>개인별 정산 전후</caption><thead><tr><th scope="col">이름</th><th scope="col">이미 낸 금액</th><th scope="col">반반 부담액</th><th scope="col">정산 시 지출 조정</th><th scope="col">송금 후 최종 부담</th></tr></thead><tbody><tr><th scope="row">정홍준</th><td>182,077원</td><td>165,083.50원</td><td>−16,994원</td><td>165,083원</td></tr><tr><th scope="row">박지우</th><td>148,090원</td><td>165,083.50원</td><td>+16,994원</td><td>165,084원</td></tr></tbody></table></div><h3>송금 계산</h3><ul class="guide-list"><li>정홍준이 박지우 대신 낸 금액 · 182,077원 ÷ 2 = <strong>91,038.50원</strong></li><li>박지우가 정홍준 대신 낸 금액 · 148,090원 ÷ 2 = <strong>74,045원</strong></li><li>서로 대신 낸 금액을 빼면 <strong>16,993.50원</strong>이에요. 1원 단위로 반올림해 <strong>16,994원</strong>을 송금하면 돼요.</li></ul><p class="help">송금 후 정홍준 165,083원, 박지우 165,084원으로 최종 부담액에 1원 차이가 생겨요. 송금 확인일은 미정이에요.</p></section><section class="extras guide-section" id="owner-record" aria-labelledby="owner-record-title"><h2 class="section-title" id="owner-record-title">정홍준 전용기록</h2><p class="guide-lead">처음에는 기존 전용 코드로 열어 주세요. PIN을 저장하면 새로고침 후에도 이 브라우저에서 6자리로 열 수 있어요.</p><div id="owner-unlock-slot"><form id="owner-unlock"><label id="owner-code-label" for="owner-access-code">정홍준 전용 코드</label><div class="owner-controls"><input id="owner-access-code" type="password" required autocapitalize="off" spellcheck="false" autocomplete="off"><button class="map-link" type="submit">전용 기록 열기</button></div></form><button class="map-link" id="owner-switch-code" type="button" hidden>기존 전용 코드로 열기</button><p class="help" id="owner-unlock-status" role="status"></p></div><div id="owner-ledger" hidden><div id="owner-pin-slot"><section id="owner-device" aria-labelledby="owner-device-title" hidden>
-  <h3 id="owner-device-title" tabindex="-1">이 기기의 6자리 PIN 설정</h3>
-  <p class="help">숫자 6자리를 입력하고 PIN 저장을 눌러 주세요. 저장 후에는 이 브라우저에서 PIN만 입력하면 돼요.</p>
-  <form id="owner-pin-setup">
-    <label class="sr-only" for="owner-new-pin">새 6자리 PIN</label>
-    <div class="owner-controls">
-      <input id="owner-new-pin" type="password" placeholder="숫자 6자리" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="off" required>
-      <button class="map-link" type="submit">PIN 저장</button>
-      <button class="map-link" id="owner-remove-pin" type="button" hidden>PIN 삭제</button>
-    </div>
-  </form>
-  <p class="help" id="owner-pin-status" role="status"></p>
-</section></div><section class="owner-tickets" aria-labelledby="owner-tickets-title"><h3 id="owner-tickets-title">예약 바로가기</h3><div id="owner-ticket-items" class="guide-quicklinks"></div></section><p class="guide-total">개인 지출 합계 <strong id="owner-cost-total"></strong></p><dl class="settlement-items" id="owner-cost-items"></dl><button class="map-link" type="button" id="owner-relock">다시 잠그기</button></div><script id="owner-encrypted-costs" type="application/json">{"salt":"o8BppKe8AUKr/pc5qhlK6w==","iv":"IEoHKyenin0oxxFp","rounds":600000,"encrypted":"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"}</script><div class="timetable-actions"><a class="map-link" href="https://kr.trip.com/order/all?locale=ko-KR&amp;curr=KRW" target="_blank" rel="noopener noreferrer">트립닷컴 내 예약 ↗</a></div></section><section class="extras guide-section" id="booking" aria-labelledby="booking-title"><p class="eyebrow">BOOKINGS &amp; BUDGET</p><h2 class="section-title" id="booking-title">항공·호텔·공항 픽업, 무엇을 예약할까?</h2>
+<section class="extras" id="reservations" aria-labelledby="reservation-title"><p class="eyebrow">BOOK THESE FIRST</p><h2 class="section-title" id="reservation-title">이번 일정에서 해야 할 예약·확인</h2><p class="help">아직 예약 완료를 뜻하지 않습니다. 확인한 항목을 직접 체크하세요. 새 일정용 체크 상태로 구분해 저장합니다.</p><label class="check-row"><input type="checkbox" id="new-flight-hotel"><span><strong>발권 완료 · 항공권과 이베이 호텔 확인서 저장</strong><small>11/29 CA440 · 12/4 CA4137 → 베이징 → CA125 / 11/29~12/4 호텔 5박 / 각자 항공권·객실 확인</small></span></label><label class="check-row"><input type="checkbox" id="new-hongya"><span><strong>11/30 홍야동 왕홍 16:30 시작 확인</strong><small>퍼프·브러시 준비. 16:30 시작과 18:30 촬영 시간을 숍에 확인하세요.</small></span></label><label class="check-row"><input type="checkbox" id="new-qipao"><span><strong>12/1 십팔제 11:30 치파오 예약</strong><small>11:30 의상·헤어·메이크업 → 12:30~13:30 촬영, 반납·추가금·원본/보정본 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-wulong-pickup"><span><strong>12/2 우룽 예약 확정 · 기사 연락 확인</strong><small>성인 2명 결제 완료. 12/1 위챗으로 승차 시각·지도 핀·차량 번호를 확인하고 바우처 저장. <a href="#wulong-confirmed">픽업 안내</a></small></span></label><label class="check-row"><input type="checkbox" id="new-banquet-lunch-voucher"><span><strong>예약 완료 · 12/3 경유연 오찬 바우처 저장</strong><small>영락시장 포함. 11:40~12:10 시장 체험, 12:30~14:00 식사·공연 일정. 트립닷컴 내 예약에서 바우처를 열고 지참할 신분증을 확인하세요. <a class="map-link" href="https://kr.trip.com/travel-guide/attraction/chongqing/chongqing-qingyu-banquet-palace-cuisine-show-153456738?poiType=66&amp;curr=KRW&amp;locale=ko-KR&amp;scene=grouptours" target="_blank" rel="noopener noreferrer">트립닷컴 상품 ↗</a></small></span></label><label class="check-row"><input type="checkbox" id="new-nanfeng"><span><strong>11/29 남풍 늦은 입장·지점 확인</strong><small>20:30~21:00경 입장 목표. 라스트오더·바 운영·야경 좌석·마지막 도보 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-breakfast"><span><strong>2·3일차 아침 식당과 운영시간 확인</strong><small>등걸면(십팔제) 실제 중국어명·지점, 짜이산청 바비큐(在山城烧烤) 또는 주춘 카오나오화(九村烤脑花)의 10시 영업 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-meals"><span><strong>11/30 저녁·12/2 투어 후 저녁 결정</strong><small>홍야동/숙소 주변 저녁, 우롱 복귀 시각에 맞는 해방비·바이루 먹거리 거리(八一路好吃街) 식사 후보 저장.</small></span></label><label class="check-row"><input type="checkbox" id="new-cafe"><span><strong>나한사·와딩딩 동선과 카페 운영 확인</strong><small>11/30 10:45~12:00 사찰+카페 블록. 카페 대기 시 체류를 줄이기.</small></span></label><label class="check-row"><input type="checkbox" id="new-return"><span><strong>픽업·샌딩 예약 완료 · 미팅 장소 저장</strong><small>11/29 17:50 픽업 · 12/4 05:15 샌딩. 앱에서 기사 연락과 각 승차 위치 확인.</small></span></label><label class="check-row"><input type="checkbox" id="new-prep"><span><strong>출국 준비</strong><small>여권·입국카드·로밍도깨비 eSIM·Alipay·WeChat·보험·예약 바우처 저장.</small></span></label><p class="help"><a href="#preparation">한국 준비물 전체 ↓</a> · <a href="#meals">식사 후보 ↓</a> · <a href="#entry">입국·검역·세관 ↓</a></p></section><section class="extras guide-section" id="joint-settlement" aria-labelledby="joint-settlement-title"><h2 class="section-title" id="joint-settlement-title">공동정산 장부</h2><p class="guide-lead">2026년 11월 23일 기준 · 2인 균등 부담 · 원화 실결제 기준</p><p class="guide-total settlement-result"><strong>박지우 → 정홍준 16,994원</strong><span class="status-chip">미정산</span></p><dl class="settlement-totals"><div><dt>정홍준 선결제</dt><dd>182,077원</dd></div><div><dt>박지우 선결제</dt><dd>148,090원</dd></div><div><dt>공동 결제 합계</dt><dd>330,167원</dd></div></dl><h3>공동 지출 원장</h3><p class="help">이용일은 서비스 예정일이에요. 결제 상태는 판매처에 지불한 상태를 뜻해요. 모바일에서는 표를 좌우로 밀어 볼 수 있어요.</p><div class="guide-scroll ledger-scroll" role="region" tabindex="0" aria-label="공동 지출 원장"><table class="guide-table ledger-table"><caption>공동 지출 4건</caption><thead><tr><th scope="col">항목·내역</th><th scope="col">이용일</th><th scope="col">분류</th><th scope="col">결제자</th><th scope="col">실결제액</th><th scope="col">정홍준 부담</th><th scope="col">박지우 부담</th><th scope="col">결제 상태</th></tr></thead><tbody><tr><th scope="row">공항 픽업<small>충칭 장베이공항 → 이베이 호텔 · 차량 1대, 2인 공용</small></th><td>11/29</td><td>교통</td><td>정홍준</td><td class="ledger-num">16,482원</td><td class="ledger-num">8,241원</td><td class="ledger-num">8,241원</td><td>결제완료</td></tr><tr><th scope="row">우룽 소규모 투어<small>선녀산·천생삼교·용수협 · 성인 2명</small></th><td>12/2</td><td>투어</td><td>정홍준</td><td class="ledger-num">153,340원</td><td class="ledger-num">76,670원</td><td class="ledger-num">76,670원</td><td>결제완료</td></tr><tr><th scope="row">경유연 오찬<small>성인 2명 · 오찬, 공연, 영락시장 체험</small></th><td>12/3</td><td>식사·공연</td><td>박지우</td><td class="ledger-num">148,090원</td><td class="ledger-num">74,045원</td><td class="ledger-num">74,045원</td><td>결제완료</td></tr><tr><th scope="row">공항 샌딩<small>이베이 호텔 → 충칭 장베이공항 · 차량 1대, 2인 공용</small></th><td>12/4</td><td>교통</td><td>정홍준</td><td class="ledger-num">12,255원</td><td class="ledger-num">6,127.50원</td><td class="ledger-num">6,127.50원</td><td>결제완료</td></tr></tbody><tfoot><tr><th scope="row" colspan="4">합계</th><td>330,167원</td><td>165,083.50원</td><td>165,083.50원</td><td>4건</td></tr></tfoot></table></div><h3>결제자별 부담과 정산</h3><div class="guide-scroll ledger-scroll" role="region" tabindex="0" aria-label="결제자별 부담과 정산"><table class="guide-table ledger-table ledger-totals"><caption>개인별 정산 전후</caption><thead><tr><th scope="col">이름</th><th scope="col">이미 낸 금액</th><th scope="col">반반 부담액</th><th scope="col">정산 시 지출 조정</th><th scope="col">송금 후 최종 부담</th></tr></thead><tbody><tr><th scope="row">정홍준</th><td>182,077원</td><td>165,083.50원</td><td>−16,994원</td><td>165,083원</td></tr><tr><th scope="row">박지우</th><td>148,090원</td><td>165,083.50원</td><td>+16,994원</td><td>165,084원</td></tr></tbody></table></div><h3>송금 계산</h3><ul class="guide-list"><li>정홍준이 박지우 대신 낸 금액 · 182,077원 ÷ 2 = <strong>91,038.50원</strong></li><li>박지우가 정홍준 대신 낸 금액 · 148,090원 ÷ 2 = <strong>74,045원</strong></li><li>서로 대신 낸 금액을 빼면 <strong>16,993.50원</strong>이에요. 1원 단위로 반올림해 <strong>16,994원</strong>을 송금하면 돼요.</li></ul><p class="help">송금 후 정홍준 165,083원, 박지우 165,084원으로 최종 부담액에 1원 차이가 생겨요. 송금 확인일은 미정이에요.</p></section><section class="extras guide-section" id="owner-record" aria-labelledby="owner-record-title"><h2 class="section-title" id="owner-record-title">정홍준 전용기록</h2><p class="guide-lead">처음 한 번 전용 코드를 입력하면 이 브라우저에 잠금 해제 상태를 저장해요. 다시 잠그려면 아래의 다시 잠그기를 누르세요.</p><div id="owner-unlock-slot"><p class="help">처음 한 번 코드를 입력하면 이 브라우저에 잠금 해제 상태를 저장해요.</p><form id="owner-unlock"><label id="owner-code-label" for="owner-access-code">정홍준 전용 코드</label><div class="owner-controls"><input id="owner-access-code" type="password" required autocapitalize="off" spellcheck="false" autocomplete="off"><button class="map-link" type="submit">전용 기록 열기</button></div></form><button class="map-link" id="owner-switch-code" type="button" hidden>기존 전용 코드로 열기</button><p class="help" id="owner-unlock-status" role="status"></p></div><div id="owner-ledger" hidden><p class="help" id="owner-remember-status" role="status"></p><section class="owner-tickets" aria-labelledby="owner-tickets-title"><h3 id="owner-tickets-title">예약 바로가기</h3><div id="owner-ticket-items" class="guide-quicklinks"></div></section><p class="guide-total">개인 지출 합계 <strong id="owner-cost-total"></strong></p><dl class="settlement-items" id="owner-cost-items"></dl><button class="map-link" type="button" id="owner-relock">다시 잠그기</button></div><script id="owner-encrypted-costs" type="application/json">{"salt":"o8BppKe8AUKr/pc5qhlK6w==","iv":"IEoHKyenin0oxxFp","rounds":600000,"encrypted":"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"}</script><div class="timetable-actions"><a class="map-link" href="https://kr.trip.com/order/all?locale=ko-KR&amp;curr=KRW" target="_blank" rel="noopener noreferrer">트립닷컴 내 예약 ↗</a></div></section><section class="extras guide-section" id="booking" aria-labelledby="booking-title"><p class="eyebrow">BOOKINGS &amp; BUDGET</p><h2 class="section-title" id="booking-title">항공·호텔·공항 픽업, 무엇을 예약할까?</h2>
 <p class="guide-lead">항공권 발권·호텔 예약을 확인했습니다. 도착일 공항 픽업과 귀국일 샌딩도 예약돼 있습니다.</p>
 <div class="guide-callout"><strong>차량 예약 확인</strong><p>픽업·샌딩 미팅 지점과 기사 연락은 Trip.com 앱의 주문 상세에서 확인하세요.</p></div>
 <div class="guide-scroll" tabindex="0" role="region" aria-label="좌우로 스크롤할 수 있는 안내 표"><table class="guide-table"><caption>항공·숙소·차량 예약 기준</caption><thead><tr><th scope="col">항목</th><th scope="col">선택할 내용</th><th scope="col">금액·조건</th></tr></thead><tbody><tr><td>항공사</td><td>중국국제항공(Air China) · CA440 / CA4137 / CA125</td><td>귀국편은 PEK 환승 일정</td></tr><tr><td>가는 편</td><td>11/29(일) 인천 T1 14:00 → 충칭 T3 16:55</td><td>출발 한국시간 / 도착 중국시간</td></tr><tr><td>오는 편</td><td>12/4 CA4137 충칭 T3 09:05 → 베이징 수도공항 T3 11:35<br>CA125 베이징 T3 13:30 → 인천 T1 16:35</td><td>베이징 환승 1시간 55분<br><a href="#day-6">귀국 시간표와 수하물 확인</a></td></tr><tr><td>숙소</td><td><a href="https://kr.trip.com/hotels/detail/?cityId=4&amp;hotelId=23964833&amp;checkIn=2026-11-29&amp;checkOut=2026-12-04&amp;adult=1&amp;crn=1&amp;curr=KRW&amp;locale=ko-KR" target="_blank" rel="noopener noreferrer">이베이 호텔</a></td><td>11/29~12/4 · 5박 예약 확정</td></tr><tr><td>공항 차량</td><td>11/29 17:50 · 충칭공항 T3 → 이베이 호텔<br>12/4 05:15 · 이베이 호텔 → 충칭공항 T3 국내선</td><td>픽업·샌딩 담당 기사 배정 확인</td></tr></tbody></table></div><p class="table-hint">표가 잘려 보이면 좌우로 밀어 확인하세요.</p>
@@ -560,16 +544,8 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
   const unlockSlot = document.getElementById('owner-unlock-slot');
   const fieldLabel = document.getElementById('owner-code-label');
   const switchCode = document.getElementById('owner-switch-code');
-  const pinSlot = document.getElementById('owner-pin-slot');
-  const deviceControls = document.getElementById('owner-device');
-  const pinTitle = document.getElementById('owner-device-title');
-  const pinSetup = document.getElementById('owner-pin-setup');
-  const pinField = document.getElementById('owner-new-pin');
-  const pinStatus = document.getElementById('owner-pin-status');
-  const pinSave = pinSetup.querySelector('button[type="submit"]');
-  const removePin = document.getElementById('owner-remove-pin');
-  let ownerCode;
-  let pinRecord;
+  const rememberedStatus = document.getElementById('owner-remember-status');
+  let legacyPin = null;
   let pinMode = false;
   let reservationTrigger = null;
   let tickets = null;
@@ -599,21 +575,49 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
     });
   }
 
-  async function deriveKey(material, salt, rounds) {
-    const password = await crypto.subtle.importKey('raw', material, 'PBKDF2', false, ['deriveKey']);
+  const deviceStore = openDeviceStore().catch(() => null);
+  let lockChannel;
+  try {
+    lockChannel = new BroadcastChannel('chongqing-owner-lock');
+  } catch {}
+
+  async function passwordKey(code) {
+    return crypto.subtle.importKey('raw', code, 'PBKDF2', false, ['deriveKey']);
+  }
+
+  async function deriveKey(password, salt, rounds) {
     return crypto.subtle.deriveKey(
       {name: 'PBKDF2', salt, iterations: rounds, hash: 'SHA-256'},
-      password, {name: 'AES-GCM', length: 256}, false, ['encrypt', 'decrypt']
+      password, {name: 'AES-GCM', length: 256}, false, ['decrypt']
     );
   }
 
-  async function deviceWrappingKey(record, pin) {
-    // A PIN is usable only with the non-extractable key stored in this browser.
+  async function keyFromLegacyPin(record, pin) {
     const material = new Uint8Array(await crypto.subtle.sign('HMAC', record.deviceKey, pin));
     try {
-      return await deriveKey(material, record.salt, 600000);
+      const wrappingKey = await deriveKey(await passwordKey(material), record.salt, 600000);
+      const code = new Uint8Array(await crypto.subtle.decrypt(
+        {name: 'AES-GCM', iv: record.iv}, wrappingKey, record.sealed
+      ));
+      try {
+        return await passwordKey(code);
+      } finally {
+        code.fill(0);
+      }
     } finally {
       material.fill(0);
+    }
+  }
+
+  async function decodeRecord(key) {
+    const contentKey = await deriveKey(key, bytes(payload.salt), payload.rounds);
+    const clear = new Uint8Array(await crypto.subtle.decrypt(
+      {name: 'AES-GCM', iv: bytes(payload.iv)}, contentKey, bytes(payload.encrypted)
+    ));
+    try {
+      return JSON.parse(new TextDecoder().decode(clear));
+    } finally {
+      clear.fill(0);
     }
   }
 
@@ -624,90 +628,29 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
     field.placeholder = usePin ? '숫자 6자리' : '';
     if (usePin) field.maxLength = 6;
     else field.removeAttribute('maxlength');
-    fieldLabel.textContent = usePin ? '이 기기의 6자리 PIN' : '정홍준 전용 코드';
-    switchCode.hidden = !pinRecord;
-    switchCode.textContent = usePin ? '기존 전용 코드로 열기' : '6자리 PIN으로 열기';
+    fieldLabel.textContent = usePin ? '등록된 6자리 PIN' : '정홍준 전용 코드';
+    switchCode.hidden = !legacyPin;
+    switchCode.textContent = usePin ? '기존 전용 코드로 열기' : '등록된 PIN으로 열기';
   }
 
-  const pinStore = openDeviceStore().then(async db => {
-    pinRecord = await useDeviceStore(db, 'readonly', store => store.get('owner'));
-    if (!unlock.disabled) setUnlockMode(Boolean(pinRecord));
-    return db;
-  }).catch(() => null);
-
   switchCode.addEventListener('click', () => {
-    unlockAttempt++;
-    unlock.disabled = false;
+    if (unlock.disabled) return;
     setUnlockMode(!pinMode);
     status.textContent = '';
     field.focus();
   });
 
-  async function updateDevicePin(remove) {
-    if (!ownerCode || pinSave.disabled) return;
-    const attempt = unlockAttempt;
-    const code = ownerCode;
-    const pin = new TextEncoder().encode(pinField.value);
-    pinField.value = '';
-    pinSave.disabled = removePin.disabled = true;
-    pinStatus.textContent = remove ? '이 기기의 PIN을 삭제하는 중이에요.' : '이 기기에 PIN을 저장하는 중이에요.';
+  async function rememberKey(key, attempt) {
     try {
-      const db = await pinStore;
-      if (!db) throw Error('Device storage unavailable');
-      let record;
-      if (!remove) {
-        const deviceKey = await crypto.subtle.generateKey(
-          {name: 'HMAC', hash: 'SHA-256'}, false, ['sign']
-        );
-        record = {
-          deviceKey,
-          salt: crypto.getRandomValues(new Uint8Array(16)),
-          iv: crypto.getRandomValues(new Uint8Array(12))
-        };
-        const key = await deviceWrappingKey(record, pin);
-        if (attempt !== unlockAttempt || ownerCode !== code) return;
-        record.sealed = await crypto.subtle.encrypt(
-          {name: 'AES-GCM', iv: record.iv}, key, code
-        );
-      }
-      if (attempt !== unlockAttempt || ownerCode !== code) return;
-      const previous = pinRecord;
-      await useDeviceStore(db, 'readwrite', store =>
-        remove ? store.delete('owner') : store.put(record, 'owner')
-      );
-      try {
-        const saved = await useDeviceStore(db, 'readonly', store => store.get('owner'));
-        if (remove && saved) throw Error('PIN deletion did not persist');
-        if (!remove) {
-          const key = await deviceWrappingKey(saved, pin);
-          const check = new Uint8Array(await crypto.subtle.decrypt(
-            {name: 'AES-GCM', iv: saved.iv}, key, saved.sealed
-          ));
-          check.fill(0);
-        }
-        pinRecord = saved;
-      } catch (error) {
-        await useDeviceStore(db, 'readwrite', store =>
-          previous ? store.put(previous, 'owner') : store.delete('owner')
-        );
-        throw error;
-      }
-      setUnlockMode(Boolean(pinRecord));
-      removePin.hidden = !pinRecord;
-      pinStatus.textContent = remove ? '이 기기의 PIN을 삭제했어요.' : 'PIN 저장 완료. 이 브라우저에서 새로고침해도 6자리 PIN으로 열 수 있어요.';
+      const db = await deviceStore;
+      if (!db || attempt !== unlockAttempt) return false;
+      // Store the non-extractable derivation key in this browser's IndexedDB.
+      await useDeviceStore(db, 'readwrite', store => store.put({key}, 'owner'));
+      return true;
     } catch {
-      pinStatus.textContent = 'PIN 변경을 완료하지 못했어요. 휴대폰에서 평소 쓰는 브라우저로 이 링크를 열고 다시 시도해 주세요.';
-    } finally {
-      pin.fill(0);
-      pinSave.disabled = removePin.disabled = false;
+      return false;
     }
   }
-
-  pinSetup.addEventListener('submit', event => {
-    event.preventDefault();
-    updateDevicePin(false);
-  });
-  removePin.addEventListener('click', () => updateDevicePin(true));
 
   function bookingCard(booking, label) {
     const note = document.createElement('p');
@@ -752,12 +695,9 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
   closeBooking.addEventListener('click', () => bookingDialog.close());
   bookingDialog.addEventListener('close', () => {
     if (bookingDialog.open) return;
-    unlockAttempt++;
-    unlock.disabled = false;
     field.value = '';
     status.textContent = '';
     result.before(unlockSlot);
-    pinSlot.append(deviceControls);
     bookingDetails.replaceChildren();
     const trigger = reservationTrigger;
     reservationTrigger = null;
@@ -767,8 +707,92 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
     }
   });
 
+  function showRecord(decoded, message, focus) {
+    const ledger = decoded.ledger;
+    const list = document.createDocumentFragment();
+    const joint = document.createDocumentFragment();
+    let sum = 0;
+    for (const {label, amount, detail, scope, links = []} of ledger) {
+      const line = document.createElement('div');
+      const name = document.createElement('dt');
+      const cost = document.createElement('dd');
+      name.textContent = label;
+      const description = document.createElement('small');
+      description.className = 'owner-detail';
+      description.textContent = detail;
+      name.append(description);
+      for (const {url, label} of links) {
+        const link = document.createElement('a');
+        link.href = url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.className = 'owner-private-link';
+        link.textContent = label;
+        name.append(link);
+      }
+      cost.textContent = krw(amount);
+      line.append(name, cost);
+      if (scope === 'joint') {
+        joint.append(line);
+      } else {
+        list.append(line);
+        sum += amount;
+      }
+    }
+    tickets = decoded.tickets;
+    updateTimetableLinks();
+    ticketItems.replaceChildren(
+      ...Object.values(tickets).map(booking => bookingCard(booking, booking.title))
+    );
+    items.replaceChildren(list);
+    privateJoint?.replaceChildren(joint);
+    total.textContent = krw(sum);
+    rememberedStatus.textContent = message;
+    unlockSlot.hidden = true;
+    result.hidden = false;
+    if (bookingDialog.open && reservationTrigger) {
+      const booking = tickets[reservationTrigger.dataset.ticketUnlock];
+      const sessionNote = document.createElement('p');
+      sessionNote.className = 'help';
+      sessionNote.textContent = message;
+      bookingDetails.replaceChildren(bookingCard(booking, booking.action + ' ↗'), sessionNote);
+      bookingUnlock.hidden = true;
+      bookingDetails.hidden = false;
+      bookingDetails.querySelector('a').focus({preventScroll: true});
+    } else if (focus) {
+      relock.focus({preventScroll: true});
+    }
+  }
+
+  async function restoreRecord() {
+    const attempt = ++unlockAttempt;
+    unlock.disabled = true;
+    try {
+      const db = await deviceStore;
+      if (!db || attempt !== unlockAttempt) return;
+      const record = await useDeviceStore(db, 'readonly', store => store.get('owner'));
+      if (attempt !== unlockAttempt) return;
+      if (!record?.key) {
+        legacyPin = record?.deviceKey ? record : null;
+        setUnlockMode(Boolean(legacyPin));
+        return;
+      }
+      const decoded = await decodeRecord(record.key);
+      if (attempt === unlockAttempt) {
+        showRecord(decoded, '이 브라우저에 저장한 잠금 해제 상태로 열었어요.', false);
+      }
+    } catch {
+      if (attempt === unlockAttempt) {
+        status.textContent = '저장된 상태를 불러올 수 없어요. 기존 전용 코드로 열어 주세요.';
+      }
+    } finally {
+      if (attempt === unlockAttempt) unlock.disabled = false;
+    }
+  }
+
   form.addEventListener('submit', async event => {
     event.preventDefault();
+    if (unlock.disabled) return;
     if (!globalThis.crypto?.subtle) {
       status.textContent = 'HTTPS 여행계획 링크를 브라우저에서 열어 주세요.';
       return;
@@ -783,101 +807,24 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
     unlock.disabled = true;
     status.textContent = '코드를 확인하는 중이에요.';
     const input = new TextEncoder().encode(entered);
-    let code = input;
     try {
-      if (usingPin) {
-        const record = pinRecord;
-        const key = await deviceWrappingKey(record, input);
-        code = new Uint8Array(await crypto.subtle.decrypt(
-          {name: 'AES-GCM', iv: record.iv}, key, record.sealed
-        ));
-      }
-      const key = await deriveKey(code, bytes(payload.salt), payload.rounds);
-      const clear = await crypto.subtle.decrypt({name: 'AES-GCM', iv: bytes(payload.iv)}, key, bytes(payload.encrypted));
-      let decoded;
-      try {
-        decoded = JSON.parse(new TextDecoder().decode(clear));
-      } finally {
-        new Uint8Array(clear).fill(0);
-      }
-      const ledger = decoded.ledger;
-      const db = await pinStore;
+      const key = usingPin ? await keyFromLegacyPin(legacyPin, input) : await passwordKey(input);
+      input.fill(0);
+      const decoded = await decodeRecord(key);
       if (attempt !== unlockAttempt) return;
-      const list = document.createDocumentFragment();
-      const joint = document.createDocumentFragment();
-      let sum = 0;
-      for (const {label, amount, detail, scope, links = []} of ledger) {
-        const line = document.createElement('div');
-        const name = document.createElement('dt');
-        const cost = document.createElement('dd');
-        name.textContent = label;
-        const description = document.createElement('small');
-        description.className = 'owner-detail';
-        description.textContent = detail;
-        name.append(description);
-        for (const {url, label} of links) {
-          const link = document.createElement('a');
-          link.href = url;
-          link.target = '_blank';
-          link.rel = 'noopener noreferrer';
-          link.className = 'owner-private-link';
-          link.textContent = label;
-          name.append(link);
-        }
-        cost.textContent = krw(amount);
-        line.append(name, cost);
-        if (scope === 'joint') {
-          joint.append(line);
-        } else {
-          list.append(line);
-          sum += amount;
-        }
-      }
-      tickets = decoded.tickets;
-      updateTimetableLinks();
-      ticketItems.replaceChildren(
-        ...Object.values(tickets).map(booking => bookingCard(booking, booking.title))
-      );
-      items.replaceChildren(list);
-      privateJoint?.replaceChildren(joint);
-      total.textContent = krw(sum);
-      if (db) {
-        ownerCode = code;
-        code = null;
-      }
-      deviceControls.hidden = false;
-      pinSetup.hidden = !db;
-      removePin.hidden = !pinRecord;
-      if (!db) {
-        pinStatus.textContent = '이 브라우저에서 PIN 저장 공간을 열 수 없어요. 휴대폰에서 평소 쓰는 브라우저로 이 링크를 열어 주세요.';
-      }
-      unlockSlot.hidden = true;
-      result.hidden = false;
-      status.textContent = '전용 기록을 열었어요.';
-      if (bookingDialog.open && reservationTrigger) {
-        const booking = tickets[reservationTrigger.dataset.ticketUnlock];
-        bookingDetails.replaceChildren(bookingCard(booking, booking.action + ' ↗'));
-        bookingUnlock.hidden = true;
-        bookingDetails.hidden = false;
-        if (!pinRecord) {
-          bookingDetails.before(deviceControls);
-          pinTitle.focus({preventScroll: true});
-        } else {
-          bookingDetails.querySelector('a').focus({preventScroll: true});
-        }
-      } else if (!pinRecord) {
-        pinTitle.focus();
-      } else {
-        relock.focus();
-      }
+      const saved = await rememberKey(key, attempt);
+      if (attempt !== unlockAttempt) return;
+      if (saved) legacyPin = null;
+      showRecord(decoded, saved
+        ? '이 브라우저에 잠금 해제 상태를 저장했어요.'
+        : '전용 기록을 열었어요. 이 브라우저에 저장할 수 없어 다시 열 때는 코드가 필요해요.', true);
     } catch {
       if (attempt === unlockAttempt) {
-        status.textContent = usingPin ? '6자리 PIN이 맞는지 확인해 주세요.' : '전용 코드가 맞는지 확인해 주세요.';
+        status.textContent = usingPin ? '등록된 PIN이 맞는지 확인해 주세요.' : '전용 코드가 맞는지 확인해 주세요.';
         field.focus();
       }
     } finally {
-      code?.fill(0);
-      if (input !== ownerCode) input.fill(0);
+      input.fill(0);
       if (attempt === unlockAttempt) {
         field.value = '';
         unlock.disabled = false;
@@ -885,14 +832,9 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
     }
   });
 
-  function lockRecord() {
+  function hideRecord() {
     unlockAttempt++;
-    ownerCode?.fill(0);
-    ownerCode = null;
-    pinField.value = '';
-    pinStatus.textContent = '';
-    deviceControls.hidden = true;
-    setUnlockMode(Boolean(pinRecord));
+    setUnlockMode(Boolean(legacyPin));
     unlock.disabled = false;
     tickets = null;
     updateTimetableLinks();
@@ -902,16 +844,41 @@ let detailState=[];window.addEventListener('beforeprint',()=>{detailState=[...do
     items.replaceChildren();
     privateJoint?.replaceChildren();
     total.textContent = '';
+    rememberedStatus.textContent = '';
     result.hidden = true;
     unlockSlot.hidden = false;
     status.textContent = '';
   }
 
-  relock.addEventListener('click', () => {
-    lockRecord();
-    status.textContent = '전용 기록을 잠갔어요.';
-    field.focus();
+  relock.addEventListener('click', async () => {
+    legacyPin = null;
+    hideRecord();
+    unlock.disabled = true;
+    const attempt = unlockAttempt;
+    try {
+      const db = await deviceStore;
+      if (db) await useDeviceStore(db, 'readwrite', store => store.delete('owner'));
+      lockChannel?.postMessage('lock');
+      if (attempt === unlockAttempt) status.textContent = '전용 기록을 잠갔어요. 이 브라우저에 저장한 잠금 해제 상태도 지웠어요.';
+    } catch {
+      if (attempt === unlockAttempt) status.textContent = '이 탭을 잠갔어요. 저장 상태를 지우려면 브라우저에서 여행계획 사이트 데이터를 삭제해 주세요.';
+    } finally {
+      if (attempt === unlockAttempt) {
+        unlock.disabled = false;
+        field.focus();
+      }
+    }
   });
-  window.addEventListener('pagehide', lockRecord);
+
+  lockChannel?.addEventListener('message', event => {
+    if (event.data !== 'lock') return;
+    legacyPin = null;
+    hideRecord();
+  });
+  window.addEventListener('pagehide', hideRecord);
+  window.addEventListener('pageshow', event => {
+    if (event.persisted) restoreRecord();
+  });
+  restoreRecord();
 })();
 </script></body></html>
